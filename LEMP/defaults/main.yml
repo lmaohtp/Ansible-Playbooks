@@ -1,0 +1,30 @@
+---
+mysql_port: 3306 
+ mysql_bind_address: "127.0.0.1" 
+ mysql_root_pass: mypassword 
+ connections: 1024 
+ server_name: "localhost"
+
+ubuntu_mysql_pkgs:
+  - mysql-server
+  - mysql-client
+  - python-mysqldb
+  - libmysqlclient-dev
+
+ubuntu_php_pkgs:
+  - php5-fpm
+  - php5-cgi
+  - php5-cli
+  - php5-curl
+  - php5-json
+  - php5-odbc
+  - php5-tidy
+  - php5-common
+  - php5-xmlrpc
+  - php5-gd
+  - php-pear
+  - php5-dev
+  - php5-imap
+  - php5-mcrypt
+  - php5-mysqlnd
+
